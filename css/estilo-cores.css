@@ -1,0 +1,50 @@
+body {
+  background-color: #5B9279;
+  color: #EAE6E5;
+}
+
+header div {
+  background-color: #5b9279e1;
+}
+
+header p {
+  color: #12130F;
+}
+
+nav {
+  background-color: #12130F;
+}
+
+#logo-brand {
+  color: #8FCB9B;
+}
+
+#logo-brand:hover {
+  color: #5B9279;
+}
+
+nav ul li a {
+  color: #EAE6E5;
+}
+
+nav ul li a:hover {
+  background-color: #8FCB9B;
+  color: #12130F;
+}
+
+.conteudo-principal {
+  display: flex;
+}
+
+main,
+aside {
+  background-color: #EAE6E5;
+  color: #12130F;
+}
+
+button {
+  background-color: #8FCB9B;
+  color: #12130F;
+}
+
+/*# sourceMappingURL=estilo-cores.css.map */
