@@ -94,6 +94,7 @@ article section {
 
 .textos-jogo {
   margin-left: 0.8em;
+  width: 150vw;
 }
 
 .textos-jogo p {
@@ -128,6 +129,13 @@ aside {
 
 aside {
   width: 30%;
+}
+
+.conteudo-lateral {
+  padding: 0.8em;
+  display: flex;
+  border-radius: 5px;
+  margin: 0.8em 0;
 }
 
 .saiba-mais {

@@ -119,6 +119,7 @@ article section {
 // seção de texto do jogo
 .textos-jogo {
     margin-left: $space-blocos;
+    width: 150vw;
 }
 
 .textos-jogo p {
@@ -156,8 +157,16 @@ aside {
     border-radius: .2em;
 }
 
+// conteudo lateral
 aside {
     width: 30%;
+}
+
+.conteudo-lateral {
+    padding: $space-blocos;
+    display: flex;
+    border-radius: 5px;
+    margin: $space-blocos 0;
 }
 
 // botão saiba mais

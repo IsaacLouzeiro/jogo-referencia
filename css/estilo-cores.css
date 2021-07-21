@@ -40,12 +40,12 @@ nav ul li a:hover {
   box-shadow: 1px 1px 10px #5b927962;
 }
 
-aside {
+article {
   background-color: #EAE6E5;
   color: #12130F;
 }
 
-article {
+.conteudo-lateral {
   background-color: #EAE6E5;
   color: #12130F;
 }

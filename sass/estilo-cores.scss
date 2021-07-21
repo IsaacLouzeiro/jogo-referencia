@@ -62,13 +62,14 @@ nav ul li a:hover {
 .imagem-jogo {
     box-shadow: 1px 1px 10px $sombra-padrao;
 }
-
-aside {
+// conteúdo dos jogos
+article {
     background-color: $branco-platinado;
     color: $cinza-escuro;
 }
-// conteúdo dos jogos
-article {
+
+// conteudo lateral
+.conteudo-lateral {
     background-color: $branco-platinado;
     color: $cinza-escuro;
 }
