@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "ubuntu", sans-serif;
   padding: 0 0.8em;
@@ -24,7 +28,7 @@ header div {
 }
 
 header h1 {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
 }
 
 header p {
@@ -56,14 +60,36 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  margin: 0.2em;
-  padding: 0.2em;
+  margin: 0.3em;
+  padding: 0.3em;
   transition: all 0.2s;
-  border-radius: 0.2em;
+  border-radius: 0.3em;
 }
 
 nav ul li a:hover {
   padding: 0.4em;
+}
+
+#btn-menu {
+  display: none;
+}
+
+#menu-mobile {
+  display: none;
+  border: 1px solid;
+  padding: 0.8em;
+  list-style-type: none;
+  border-radius: 0.4em;
+}
+
+#menu-mobile a {
+  text-decoration: none;
+  display: block;
+  border: 1px solid;
+  padding: 0.8em;
+  margin: 0.3em;
+  border-radius: 0.4em;
+  transition: all 0.5s;
 }
 
 .conteudo-principal {
@@ -77,7 +103,7 @@ main {
 
 main h3,
 main p {
-  margin: 0.2em;
+  margin: 0.3em;
 }
 
 article {
@@ -133,9 +159,22 @@ aside {
 
 .conteudo-lateral {
   padding: 0.8em;
-  display: flex;
   border-radius: 5px;
   margin: 0.8em 0;
+}
+
+.conteudo-lateral ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0.3em;
+}
+
+.conteudo-lateral a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.3em;
+  margin: 0.3em;
+  border-radius: 0.3em;
 }
 
 .saiba-mais {
@@ -150,6 +189,29 @@ aside {
 
 .saiba-mais:hover {
   opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  padding: 0.8em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+footer h4 {
+  margin: 0.3em;
+}
+
+footer p {
+  margin: 0.3em;
+}
+
+footer a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -15,12 +15,16 @@ $marrom-claro: #8F8073;
 // ESPAÇAMENTO
 $space-blocos: .8em;
 
-$space-textos: .2em;
+$space-textos: .3em;
 $space-textos-exp: .4em;
 
 
 // principal
 * { margin: 0; padding: 0; }
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: $main-font;
@@ -86,6 +90,29 @@ nav ul li a {
 
 nav ul li a:hover {
     padding: $space-textos-exp;
+}
+
+// menu mobile
+#btn-menu {
+    display: none;
+}
+
+#menu-mobile {
+    display: none;
+    border: 1px solid;
+    padding: $space-blocos;
+    list-style-type: none;
+    border-radius: .4em;
+}
+
+#menu-mobile a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid;
+    padding: $space-blocos;
+    margin: $space-textos;
+    border-radius: .4em;
+    transition: all .5s;
 }
 
 // conteúdo
@@ -164,9 +191,22 @@ aside {
 
 .conteudo-lateral {
     padding: $space-blocos;
-    display: flex;
     border-radius: 5px;
     margin: $space-blocos 0;
+}
+
+.conteudo-lateral ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: $space-textos;
+}
+
+.conteudo-lateral a {
+    display: inline-block;
+    text-decoration: none;
+    padding: $space-textos;
+    margin: $space-textos;
+    border-radius: .3em;
 }
 
 // botão saiba mais
@@ -182,4 +222,28 @@ aside {
 
 .saiba-mais:hover {
     opacity: .9;
+}
+
+// rodapé
+footer {
+    text-align: center;
+    padding: $space-blocos;
+    border-radius: .5em .5em 0 0;
+}
+
+footer h4 {
+    margin: $space-textos;
+}
+
+footer p {
+    margin: $space-textos;
+}
+
+footer a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

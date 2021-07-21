@@ -32,6 +32,23 @@ nav ul li a:hover {
   color: #12130F;
 }
 
+#btn-menu {
+  color: #EAE6E5;
+}
+
+#menu-mobile {
+  background-color: #EAE6E5;
+}
+
+#menu-mobile a {
+  background-color: #12130F;
+  color: #EAE6E5;
+}
+
+#menu-mobile a:hover {
+  color: #8FCB9B;
+}
+
 .conteudo-principal {
   display: flex;
 }
@@ -50,9 +67,27 @@ article {
   color: #12130F;
 }
 
+.conteudo-lateral a {
+  background-color: #5B9279;
+  color: #EAE6E5;
+}
+
 .saiba-mais {
   background-color: #8FCB9B;
   color: #12130F;
+}
+
+footer {
+  color: #EAE6E5;
+  background-color: #12130F;
+}
+
+footer a {
+  color: #5B9279;
+}
+
+footer a:hover {
+  color: #8FCB9B;
 }
 
 /*# sourceMappingURL=estilo-cores.css.map */

@@ -10,11 +10,15 @@
     <!-- css -->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/estilo-cores.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/add7a07cd1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- limitar o tamanho do conteúdo -->
@@ -35,16 +39,26 @@
     
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Jogos populares</a></li>
+                <li><a href="#link-interno1">Jogos populares</a></li>
                 <li><a href="#">Quem somos</a></li>
             </ul>
+            
+            <a href="javascript:void(0);" onclick="menuBar()" id="btn-menu"><i class="fa fa-bars"></i></a><!-- botao menu mobile -->
         </nav>
         <!-- // menu de navegação -->
+
+        <!-- menu mobile -->
+        <ul id="menu-mobile">
+            <li><a href="#">Início</a></li>
+            <li><a href="#link-interno1">Jogos populares</a></li>
+            <li><a href="#">Quem somos</a></li>
+        </ul>
+        <!-- // menu mobile -->
     
         <!-- conteúdo do site -->
         <div class="conteudo-principal">
             <!-- conteúdo principal -->
-            <main>
+            <main id="link-interno1">
                 <h2>Os jogos que estão bombando na atualidade</h2>
                 <!-- conteudo do jogo -->
                 <article>
@@ -94,14 +108,46 @@
             <aside>
                 <h2>Tópicos</h2>
                 <section class="conteudo-lateral">
-                    OI
+                    <h4>Jogos de android</h4>
+                    <ul>
+                        <li><a href="#">Free Fire</a></li>
+                        <li><a href="#">PUBG</a></li>
+                        <li><a href="#">Cyber Hunter</a></li>
+                    </ul>
+
+                    <h4>Jogos de Xbox</h4>
+                    <ul>
+                        <li><a href="#">Rainbow Six</a></li>
+                        <li><a href="#">Far Cry</a></li>
+                        <li><a href="#">Minecraft</a></li>
+                        <li><a href="#">GTA V</a></li>
+                    </ul>
+
+                    <h4>Principais pesquisas</h4>
+                    <ul>
+                        <li><a href="#">#farcry5</a></li>
+                        <li><a href="#">#overwatch</a></li>
+                        <li><a href="#">#upar</a></li>
+                        <li><a href="#">#valorant</a></li>
+                    </ul>
                 </section>
             </aside>
             <!-- // conteúdo lateral -->
         </div>
         <!-- // conteúdo do site -->
 
+        <!-- rodapé -->
+        <footer>
+            <h4>GAMEREF</h4>
+            <p>&copy;2021 | Todos os direitos reservados | por <a href="https://www.linkedin.com/in/isaac-louzeiro/">Isaac Louzeiro</a></p>
+        </footer>
+        <!-- // rodapé -->
     </div>
     <!-- // limitar o tamanho do conteúdo -->
+
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>

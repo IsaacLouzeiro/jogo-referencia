@@ -1,0 +1,53 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    // menu pc
+    nav ul li {
+        display: none;
+    }
+
+    // menu mobile
+    #btn-menu {
+        display: inline-block;
+    }
+
+    #menu-mobile {
+        display: none;
+    }
+
+    // conteúdo
+    .conteudo-principal {
+        display: flex;
+        margin-left: -.8em;
+    }
+
+    // conteudo jogos
+    main {
+        width: 98%;
+    }
+
+    article {
+        flex-wrap: wrap;
+    }
+    
+    // imagem dos jogos
+    .imagem-jogo {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px * 0.5;
+    }
+
+    // conteudo lateral
+    aside {
+        display: none;
+    }
+}

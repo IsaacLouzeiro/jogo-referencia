@@ -49,6 +49,24 @@ nav ul li a:hover {
     color: $cinza-escuro;
 }
 
+// menu mobile
+#btn-menu {
+    color: $branco-platinado;
+}
+
+#menu-mobile {
+    background-color: $branco-platinado;
+}
+
+#menu-mobile a {
+    background-color: $cinza-escuro;
+    color: $branco-platinado;
+}
+
+#menu-mobile a:hover {
+    color: $verde-claro;
+}
+
 // conteúdo
 .conteudo-principal {
     display: flex;
@@ -74,8 +92,27 @@ article {
     color: $cinza-escuro;
 }
 
+.conteudo-lateral a {
+    background-color: $verde-azulado;
+    color: $branco-platinado;
+}
+
 // botao saiba mais
 .saiba-mais {
     background-color: $verde-claro;
     color: $cinza-escuro;
+}
+
+// rodapé
+footer {
+    color: $branco-platinado;
+    background-color: $cinza-escuro;
+}
+
+footer a {
+    color: $verde-azulado;
+}
+
+footer a:hover {
+    color: $verde-claro;
 }
