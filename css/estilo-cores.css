@@ -36,13 +36,21 @@ nav ul li a:hover {
   display: flex;
 }
 
-main,
+.imagem-jogo {
+  box-shadow: 1px 1px 10px #5b927962;
+}
+
 aside {
   background-color: #EAE6E5;
   color: #12130F;
 }
 
-button {
+article {
+  background-color: #EAE6E5;
+  color: #12130F;
+}
+
+.saiba-mais {
   background-color: #8FCB9B;
   color: #12130F;
 }

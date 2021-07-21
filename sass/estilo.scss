@@ -13,7 +13,7 @@ $branco-platinado: #EAE6E5;
 $marrom-claro: #8F8073;
 
 // ESPAÇAMENTO
-$space-blocos: 1em;
+$space-blocos: .8em;
 
 $space-textos: .2em;
 $space-textos-exp: .4em;
@@ -25,6 +25,12 @@ $space-textos-exp: .4em;
 body {
     font-family: $main-font;
     padding: 0 $space-blocos;
+}
+
+// tamanho do conteudo
+.max-width {
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 // cabeçalho
@@ -97,6 +103,52 @@ main p {
     margin: $space-textos;
 }
 
+// conteúdo dos jogos
+article {
+    padding: $space-blocos;
+    display: flex;
+    border-radius: 5px;
+    margin: $space-blocos 0;
+}
+
+article div,
+article section {
+    margin: $space-blocos;
+}
+
+// seção de texto do jogo
+.textos-jogo {
+    margin-left: $space-blocos;
+}
+
+.textos-jogo p {
+    text-align: justify;
+}
+
+// imagem dos jogos
+.imagem-jogo {
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+    border-radius: 3px;
+    // height: 200px;
+}
+
+// valorant
+#valorant {
+    background-image: url(../img/valorant.jpg);
+}
+
+// csgo
+#csgo {
+    background-image: url(../img/csgo.jpg);
+}
+
+// valorant
+#lol {
+    background-image: url(../img/lol.jpg);
+}
+
 main,
 aside {
     padding: $space-blocos;
@@ -109,9 +161,16 @@ aside {
 }
 
 // botão saiba mais
-button {
+.saiba-mais {
+    display: inline-block;
+    text-decoration: none;
     border: none;
     padding: .5em 1em;
     font-size: 1em;
     border-radius: .4em;
+    margin-top: $space-blocos;
+}
+
+.saiba-mais:hover {
+    opacity: .9;
 }

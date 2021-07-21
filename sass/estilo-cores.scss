@@ -9,6 +9,8 @@ $branco-platinado: #EAE6E5;
 
 $marrom-claro: #8F8073;
 
+$sombra-padrao: #5b927962;
+
 
 // principal
 body {
@@ -52,13 +54,27 @@ nav ul li a:hover {
     display: flex;
 }
 
-main,
+// conteúdo dos jogos
+
+// seção de texto do jogo
+
+// imagem dos jogos
+.imagem-jogo {
+    box-shadow: 1px 1px 10px $sombra-padrao;
+}
+
 aside {
     background-color: $branco-platinado;
     color: $cinza-escuro;
 }
+// conteúdo dos jogos
+article {
+    background-color: $branco-platinado;
+    color: $cinza-escuro;
+}
 
-button {
+// botao saiba mais
+.saiba-mais {
     background-color: $verde-claro;
     color: $cinza-escuro;
 }

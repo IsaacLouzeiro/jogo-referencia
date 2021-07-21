@@ -5,7 +5,12 @@
 
 body {
   font-family: "ubuntu", sans-serif;
-  padding: 0 1em;
+  padding: 0 0.8em;
+}
+
+.max-width {
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 header {
@@ -15,7 +20,7 @@ header {
 }
 
 header div {
-  padding: 1em;
+  padding: 0.8em;
 }
 
 header h1 {
@@ -28,7 +33,7 @@ header p {
 
 nav {
   border-radius: 0.5em;
-  padding: 1em;
+  padding: 0.8em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,7 +71,7 @@ nav ul li a:hover {
 }
 
 main {
-  margin-right: 1em;
+  margin-right: 0.8em;
   width: 70%;
 }
 
@@ -75,10 +80,49 @@ main p {
   margin: 0.2em;
 }
 
+article {
+  padding: 0.8em;
+  display: flex;
+  border-radius: 5px;
+  margin: 0.8em 0;
+}
+
+article div,
+article section {
+  margin: 0.8em;
+}
+
+.textos-jogo {
+  margin-left: 0.8em;
+}
+
+.textos-jogo p {
+  text-align: justify;
+}
+
+.imagem-jogo {
+  background-size: cover;
+  background-position: center;
+  width: 80vw;
+  border-radius: 3px;
+}
+
+#valorant {
+  background-image: url(../img/valorant.jpg);
+}
+
+#csgo {
+  background-image: url(../img/csgo.jpg);
+}
+
+#lol {
+  background-image: url(../img/lol.jpg);
+}
+
 main,
 aside {
-  padding: 1em;
-  margin-top: 1em;
+  padding: 0.8em;
+  margin-top: 0.8em;
   border-radius: 0.2em;
 }
 
@@ -86,11 +130,18 @@ aside {
   width: 30%;
 }
 
-button {
+.saiba-mais {
+  display: inline-block;
+  text-decoration: none;
   border: none;
   padding: 0.5em 1em;
   font-size: 1em;
   border-radius: 0.4em;
+  margin-top: 0.8em;
+}
+
+.saiba-mais:hover {
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=estilo.css.map */
